@@ -56,6 +56,11 @@ class TableComponent extends React.Component {
             </div>
           </div>
         </div>
+        <textarea
+          rows="10"
+          className="input_field"
+          style={{ width: "200px", height: "200px", marginTop: "10px" }}
+        ></textarea>
       </div>
     );
   }
